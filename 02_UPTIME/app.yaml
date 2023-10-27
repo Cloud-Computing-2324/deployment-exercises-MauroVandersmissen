@@ -11,7 +11,7 @@ spec:
     helm:
       valueFiles:
         - $values/02_UPTIME/values.yaml
-  - repoURL: 'https://github.com/Cloud-Computing-2324/deployment-exercises-Tiebevn.git'
+  - repoURL: 'https://github.com/Cloud-Computing-2324/deployment-exercises-MauroVandersmissen.git'
     targetRevision: main
     ref: values
   destination:
@@ -20,7 +20,7 @@ spec:
   project: default
   info:
     - name: 'Uptime Kuma'
-      value: 'https://up.66.co.ucll.cloud'
+      value: 'https://up.46.co.ucll.cloud'
   syncPolicy:
     automated:
       prune: true
