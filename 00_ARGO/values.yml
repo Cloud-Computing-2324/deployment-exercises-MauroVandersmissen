@@ -4,11 +4,11 @@ server:
     annotations:
       cert-manager.io/cluster-issuer: cluster-issuer
     hosts:
-      - "argocd.46.co.ucll.cloud"
+      - "argocd.46.cc.ucll.cloud"
     tls:
       - secretName: argocd-tls
         hosts:
-          - "argocd.46.co.ucll.cloud"
+          - "argocd.46.cc.ucll.cloud"
 
 configs:
   params:
